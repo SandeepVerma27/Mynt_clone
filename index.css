@@ -6,7 +6,7 @@
     Helvetica, Arial, sans-serif;
 }
 
-/* header styling  */
+/* ******************************header section styling******************************* */
 
 /* header tag  */
 header {
@@ -58,7 +58,7 @@ header {
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 700;
-  padding: 30px 0px;
+  padding: 29px 0px;
   border-bottom: 3px solid rgb(255, 255, 255);
 }
 /* hover effect on the nav bar  */
@@ -74,8 +74,8 @@ header {
   font-size: 10px;
   margin-top: 5px;
   position: relative;
-  top: -8px;
-  right: 8px;
+  top: -11px;
+  right: 9px;
   font-weight: 700;
 }
 /* sup tag inside nav bar  */
@@ -130,4 +130,103 @@ header {
 }
 /* container box icons style  */
 /* action bar styling  */
-/* header styling  */
+/* ******************************header section styling******************************* */
+
+/* **************************main section styling******************************* */
+.banner_container {
+  margin: 20px 0px;
+}
+
+/* banner image */
+.banner_image {
+  width: 100%;
+}
+/* banner image */
+
+/* categories heading  */
+.categories_heading {
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* categories heading  */
+
+/* categories item styling */
+.categories_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sale_item {
+  width: 250px;
+}
+/* categories item styling */
+
+/* **************************main section styling******************************* */
+
+/* *****************************footer section style******************************** */
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* footer column  */
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h6 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #283c3f;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.footer_column h5 {
+  font-size: 12px;
+  color: #282c3f;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px;
+}
+
+/* app img  */
+.footer_column a img {
+  height: 40px;
+  width: 140px;
+}
+/* app img  */
+
+/* logo icons  */
+.footer_column .social_logo a i {
+  font-size: 20px;
+}
+
+/* original logo  */
+.original_logo {
+  display: flex;
+  gap: 15px;
+}
+
+/* original logo  */
+
+/* logo icons  */
+/* footer column  */
+
+/* *****************************footer section style******************************** */
