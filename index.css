@@ -44,11 +44,19 @@ header {
   display: flex;
   min-width: 300px;
   width: 40%;
-
   justify-content: space-around;
   /* align-items: center; */
 }
 /* nav tag  */
+
+/* fix the nav bar  */
+header {
+  position: sticky;
+  z-index: 1;
+  top: 1px;
+}
+
+/* fix the nav bar  */
 
 /* nav var designing  */
 .nav_bar a {
@@ -58,9 +66,10 @@ header {
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 700;
-  padding: 29px 0px;
+  padding: 27.99px 0px;
   border-bottom: 3px solid rgb(255, 255, 255);
 }
+
 /* hover effect on the nav bar  */
 .nav_bar a:hover {
   border-bottom: 3px solid #f54e77;
@@ -88,6 +97,13 @@ header {
   display: flex;
   align-items: center;
 }
+
+/* hover effect on the search bar  */
+.search_bar:hover {
+  cursor: pointer;
+}
+
+/* hover effect on the search bar  */
 
 /* search box styling  */
 .search_box {
@@ -163,7 +179,8 @@ header {
 }
 
 .sale_item {
-  width: 250px;
+  padding: 30px 0px;
+  width: 275px;
 }
 /* categories item styling */
 
@@ -171,21 +188,29 @@ header {
 
 /* *****************************footer section style******************************** */
 .footer_container {
-  padding: 30px 0px 40px 0px;
+  padding: 30px 200px;
   background-color: #fafbfc;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* footer column  */
 .footer_column {
+  width: 400px;
   display: flex;
+  margin: 40px 0px;
   flex-direction: column;
+  box-sizing: border-box;
+}
+
+.footer_column1 {
+  margin-top: -70px;
 }
 
 .footer_column h6 {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 17px;
   color: #283c3f;
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -200,10 +225,11 @@ header {
 
 .footer_column a {
   color: #696b79;
-  font-size: 15px;
+  font-size: 17px;
   text-decoration: none;
   font-weight: 500;
   padding: 4px;
+  text-transform: capitalize;
 }
 
 /* app img  */
@@ -223,10 +249,54 @@ header {
   display: flex;
   gap: 15px;
 }
-
 /* original logo  */
-
 /* logo icons  */
+
+/* 8888888888888888888888 */
+
+/* footer container 2 style   */
+.footer_container-2 {
+  padding: 10px 200px;
+  background-color: #fafbfc;
+  /* display: flex; */
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.row_1 div {
+  height: 1px;
+  width: 1550px;
+  background-color: black;
+  position: relative;
+  left: 155px;
+  bottom: 16.5px;
+}
+
+#two {
+  text-decoration: none;
+  font-size: 20px;
+  color: #696b79;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.three {
+  margin: 80px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three p {
+  font-size: 20px;
+  color: #696e79;
+}
+
+.three p a {
+  text-decoration: none;
+}
+
+/* footer container 2 style   */
 /* footer column  */
 
 /* *****************************footer section style******************************** */
